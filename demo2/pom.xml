@@ -8,9 +8,9 @@
   <packaging>jar</packaging>
     <parent>
 	<groupId>TR</groupId>
-  <artifactId>Amazon</artifactId>
-  <version>2.0</version>
-  </parent>
+        <artifactId>Amazon</artifactId>
+        <version>2.0</version>
+    </parent>
 
   <name>Amazon</name>
   <url>http://maven.apache.org</url>
@@ -27,19 +27,12 @@
          </formats>
          <aggregate>true</aggregate>
         </configuration>
-	</plugin>
+   </plugin>
    </plugins>
-  </build>
-  <build>
-   <plugins>
-    <plugin>
-       <groupId>ord.codehaus.mojo</groupId>
-       <artifactId>sonar-maven-plugin</artifactId>
-       <version>2.2</version>
-    </plugin>
-   </plugins>
-  </build>
-	 <properties>
+</build>
+
+
+  <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
